@@ -27,7 +27,7 @@ namespace Send
 
 
                     //Fill the Queue Name
-                    channel.QueueDeclare(queue: "QueName1",
+                    channel.QueueDeclare(queue: "QueName11",
                                         durable: true, //If the consumers fails the server keeps the messages
                                     exclusive: false,
                                     autoDelete: false,
