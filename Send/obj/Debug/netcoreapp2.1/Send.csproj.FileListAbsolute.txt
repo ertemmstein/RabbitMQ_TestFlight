@@ -18,4 +18,3 @@ C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Send\obj\Debug\netcoreapp2.1\Send.Assem
 C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfo.cs
 C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Send\obj\Debug\netcoreapp2.1\Send.dll
 C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Send\obj\Debug\netcoreapp2.1\Send.pdb
-C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Send\obj\Debug\netcoreapp2.1\Send.csprojAssemblyReference.cache

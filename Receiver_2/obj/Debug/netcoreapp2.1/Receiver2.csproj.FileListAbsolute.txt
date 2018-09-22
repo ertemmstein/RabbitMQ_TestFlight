@@ -8,4 +8,3 @@ C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receiver_2\obj\Debug\netcoreapp2.1\Rece
 C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receiver_2\obj\Debug\netcoreapp2.1\Receiver2.AssemblyInfo.cs
 C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receiver_2\obj\Debug\netcoreapp2.1\Receiver2.dll
 C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receiver_2\obj\Debug\netcoreapp2.1\Receiver2.pdb
-C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receiver_2\obj\Debug\netcoreapp2.1\Receiver2.csprojAssemblyReference.cache

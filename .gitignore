@@ -9,5 +9,11 @@
 *.user
 _ReSharper.*
 bin
+Debug
 obj
 packages
+***\bin**
+***\obj**
+*/bin/*
+*/obj/*
+*\obj\*
