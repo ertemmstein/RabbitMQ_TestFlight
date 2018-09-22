@@ -1,0 +1,10 @@
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\bin\Debug\netcoreapp2.1\Receiver.deps.json
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\bin\Debug\netcoreapp2.1\Receiver.runtimeconfig.json
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\bin\Debug\netcoreapp2.1\Receiver.runtimeconfig.dev.json
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\bin\Debug\netcoreapp2.1\Receiver.dll
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\bin\Debug\netcoreapp2.1\Receiver.pdb
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\obj\Debug\netcoreapp2.1\Receiver.csproj.CoreCompileInputs.cache
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\obj\Debug\netcoreapp2.1\Receiver.AssemblyInfoInputs.cache
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\obj\Debug\netcoreapp2.1\Receiver.AssemblyInfo.cs
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\obj\Debug\netcoreapp2.1\Receiver.dll
+C:\Users\ertemy.DATASEL\Desktop\rabbitMQ\Receive\obj\Debug\netcoreapp2.1\Receiver.pdb

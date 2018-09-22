@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ertemy.DATASEL\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ertemy.DATASEL\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}
