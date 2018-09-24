@@ -26,11 +26,11 @@ namespace Send
             var factory = new ConnectionFactory()
             {
                 //Fill the connection info's
-                HostName = "",
+                HostName = "apps.erc-grup.com.tr",
                 Port = 8545,
-                //VirtualHost = "ertemyHost",
-                //UserName = "",
-                //Password = ""
+                VirtualHost = "ertemyHost",
+                UserName = "ertemy",
+                Password = "ertemy"
 
             };
 
