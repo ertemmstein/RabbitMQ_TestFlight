@@ -10,8 +10,7 @@ namespace Receive
     {
         public static void Main()
         {
-            var utils = new Send.Utils();
-            utils.CreateQueConsumer(true);
+            Send.Utils.CreateQueConsumer();
         }
     }
 }

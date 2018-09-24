@@ -8,8 +8,7 @@ namespace Send
     {
         public static void Main(string[] args)
         {
-            var utils = new Utils();
-            utils.CreateQuePublisher();
+            Utils.CreateQuePublisher();
         }
 
        
