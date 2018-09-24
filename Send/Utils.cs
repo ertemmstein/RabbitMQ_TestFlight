@@ -3,10 +3,11 @@ using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace Send
 {
-    public class Utils
+    public  class Utils
     {
         private static string queName;
         private static string routingKeyName;
@@ -16,28 +17,30 @@ namespace Send
         public Utils()
         {
             //Fill these mandatory Fields
-            queName = "";
-            routingKeyName = "";
-            exchangeName = "";
+            queName = "ertemtestQueue";
+            routingKeyName = "taskQue";
+            exchangeName = "ertemTestExchange";
         }
-        public static ConnectionFactory CreateConFactory()
+        public ConnectionFactory CreateConFactory()
         {
             var factory = new ConnectionFactory()
             {
                 //Fill the connection info's
-                HostName = "localhost",
-                //Port = 8545,
-                //VirtualHost = "",
-                //UserName = "",
-                //Password = ""
+                HostName = "apps.erc-grup.com.tr",
+                Port = 8545,
+                VirtualHost = "ertemyHost",
+                UserName = "ertemy",
+                Password = "ertemy"
 
             };
 
             return factory;
         }
 
-        public static void  CreateQueConsumer()
+        public void  CreateQueConsumer(bool pauseThread = false)
         {
+           
+
             var factory = CreateConFactory();
             using (var connection = factory.CreateConnection())
             {
@@ -51,6 +54,8 @@ namespace Send
                                    arguments: null);
 
 
+                   
+
                     //Oos for Consumers
                     //Fair Dispatch
                     channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
@@ -62,8 +67,11 @@ namespace Send
                         var message = Encoding.UTF8.GetString(body);
                         Console.WriteLine(" [x] Received {0}", message);
                         Console.WriteLine(" [x] Done");
+                        if (pauseThread) // Acts as slower consumer
+                            Thread.Sleep(1000);
                         channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
                     };
+                   
                     channel.BasicConsume(queue: queName,
                                          autoAck: false,
                                          consumer: consumer);
@@ -75,9 +83,9 @@ namespace Send
 
         }
 
-        public static void CreateQuePublisher()
+        public void CreateQuePublisher()
         {
-            var factory = Utils.CreateConFactory();
+             var factory = CreateConFactory();
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
